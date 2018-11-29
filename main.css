@@ -55,12 +55,8 @@ footer h1{
 .items-section div > h2{
     margin: 50px 0;
     font-size: 25px;
-    color: #A29BFE;
+    color: #6C5CE7;
     font-weight: 400;
-}
-
-.score-board-item{
-    color: #6C5CE7 !important;
 }
 
 #points{
