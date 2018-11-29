@@ -1,0 +1,25 @@
+{
+  "name": "rockpaperscissorsgame",
+  "version": "1.0.0",
+  "description": "A little Rock Paper Scissors Game made with Javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarmichaelF/RockPaperScissors.git"
+  },
+  "keywords": [
+    "Rock",
+    "Paper",
+    "Scissors",
+    "Game"
+  ],
+  "author": "Carmichael F. Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CarmichaelF/RockPaperScissors/issues"
+  },
+  "homepage": "https://github.com/CarmichaelF/RockPaperScissors#readme"
+}
