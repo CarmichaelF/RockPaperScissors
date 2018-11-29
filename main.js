@@ -1,11 +1,25 @@
-let points = 0;
-const pointsH2 = document.getElementById('points');
+/* eslint-disable indent */
+let pointsUser = 0;
+let pointsComputer = 0;
+let pointsH2 = document.getElementById('points');
 const feedback = document.getElementById('feedback');
 const rock = document.getElementById('rock');
 const paper = document.getElementById('paper');
 const scissors = document.getElementById('scissors');
 
+function win(){
+    pointsUser++;
+    pointsH2.innerHTML = pointsUser + ':' + pointsComputer;
+}
 
+function lose(){
+    pointsComputer++;
+    pointsH2.innerHTML = pointsUser + ':' + pointsComputer;
+}
+
+function draw(){
+    
+}
 
 function play(key) {
     const result = key + randomComputerInput();
@@ -13,20 +27,21 @@ function play(key) {
         case 'pr':
         case 'rs':
         case 'sp':
-        console.log(result,'win');
+        win();
             break;
         case 'rp':
-        case 'sp':
+        case 'sr':
         case 'ps':
-        console.log(result,'lose');
+        lose();
             break;
         case 'rr':
         case 'ss':
         case 'pp':
-        console.log(result, 'draw');
+        draw();
+        break;
+        default:
+        throw 'Error: Function play, invalid argument';
     }
-
-
 }
 
 function randomComputerInput() {
