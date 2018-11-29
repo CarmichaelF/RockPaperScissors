@@ -59,6 +59,24 @@ footer h1{
     font-weight: 400;
 }
 
+.win{
+    color: green !important;
+    border-color: green !important;
+    transition: 0.3s;
+}
+
+.lose{
+    color: red !important;
+    border-color: red !important;
+    transition: 0.3s;
+}
+
+.draw{
+    color: gray !important;
+    border-color: gray !important;
+    transition: 0.3s;
+}
+
 #points{
     font-weight: 500;
     font-size: 35px;
