@@ -18,6 +18,6 @@ The rules are simpler:
 
 This project use ESLint, if you want to use just click in this [link](https://eslint.org/) and follow the instructions, you just need to clone or download this project and open the 'index.html' file, after this the project must run.
 
-git clone https://github.com/CarmichaelF/frontend-nanodegree-feedreader-master.git
+git clone https://github.com/CarmichaelF/RockPaperScissors.git
 
 online version: https://carmichaelf.github.io/RockPaperScissors/
